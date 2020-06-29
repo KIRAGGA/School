@@ -24,5 +24,29 @@
             </div>
         </div>
     </div>
+    
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <aside><h3 class="widget-title">About Us</h3>
+                        <div> <p style="text-align: justify;"> Lungujja Model nursery and Primary school is a private
+                        modern day and boarding school. The school started in. Lungujja Model nursery and Primary school is a private
+                        modern day and boarding school. The school started in. Lungujja Model nursery and Primary school is a private
+                        modern day and boarding school. The school started in the year 2000</p></div>
+                    </aside>
+                    <aside>
+                        <h3 class="widget-title"></h3> 
+                        <div>
+                            <iframe src="insert google map here" frameborder="0" style="border: 0;" allowfullscreen></iframe>
+                        </div>
+                    </aside>
+                    <aside>
+                        <h3 class="widget-title">Contact Details</h3>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
