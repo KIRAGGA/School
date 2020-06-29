@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\c;
+use App\Menus;
 use Illuminate\Http\Request;
 
 class menusController extends Controller
@@ -14,7 +14,7 @@ class menusController extends Controller
      */
     public function index()
     {
-        //
+        return view('menus.index');
     }
 
     /**
