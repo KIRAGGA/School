@@ -53,7 +53,7 @@ body {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-
+/* Style the left column */
 .left {
   grid-area: left;
 }
