@@ -43,6 +43,12 @@
                     </aside>
                     <aside>
                         <h3 class="widget-title">Contact Details</h3>
+                        <div>
+                            <p> Lungujja Model Primary School</p>
+                            <p>P.O Box 7888</p>
+                            <p>Phone No: 77812354</p>
+                            <p>Email: info@jkldsdijldasdc.co.ug</p>
+                        </div>
                     </aside>
                 </div>
             </div>
