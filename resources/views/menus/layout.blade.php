@@ -74,18 +74,63 @@ body {
                 <li><a href="">Home</a></li>
                 <li>
                     <a href="#about">About Us</a>
-                      <ul>
+                      {{-- <ul>
                         <li><a href="">About the School</a></li>
                         <li><a href="">Mission & Vision</a></li>
                         <li><a href="">Principal's Message</a></li>
                         <li><a href="">The Staff</a></li>
                         <li><a href="">School Facilities</a></li>
-                      </ul>
+                      </ul> --}}
                 </li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#pricing">PRICING</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="">Administration</a>
+                    <ul>
+                      <li><a href="">The Management & B.O.G</a></li>
+                      <li><a href="">Senior Management</a></li>
+                      <li><a href="">Accounts Department</a></li>
+                      <li><a href="">Secretaries</a></li>
+                      <li><a href="">Stores Department</a></li>
+                      <li><a href="">Boarding Department</a></li>
+                      <li><a href="">Transport Department</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Academics</a>
+                    <ul>
+                      <li><a href="">Departments</a></li>
+                        <ul>
+                          <li><a href="">Languages</a></li>
+                          <li><a href="">Humanities</a></li>
+                          <li><a href="">Science</a></li>
+                          <li><a href="">Mathematics</a></li>
+                          <li><a href="">Technical Department</a></li>
+                          <li><a href="">Guidance & Counseling</a></li>
+                          <li><a href="">Careers</a></li>
+                          <li><a href="">Library</a></li>
+
+                        </ul>
+                      <li><a href="">Achievements</a></li>
+                      <li><a href="">School Curriculum</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Admissions</a>
+                    <ul>
+                      <li><a href="">Admission Form</a></li>
+                      <li><a href="">Term Dates</a></li>
+                      <li><a href="">School Fees Payment Structure</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Co-Curricular</a>
+                    <ul>
+                      <li><a href="">Games & Sports</a></li>
+                      <li><a href="">Clubs & Societies</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Resources</a>
+                    <ul>
+                      <li><a href="">School Tours / Gallery</a></li>
+                      <li><a href="">Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
             </ul>
         </div>
   </div>
