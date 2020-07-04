@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/menus', 'MenusCountroller@AboutUs');
+Route::get('/menus', 'MenusController@AboutUs');
 
 Auth::routes();
 
