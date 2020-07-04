@@ -4,12 +4,14 @@
 
 
     <header style=" background-color: #666; padding: 30px ; text-align: left; font-size: 35px; color: white;">
-        <p>About the School</p>
+        <p></p>
+        <h1>About the School</h1>
     </header>
+
 <aside style="-webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #f1f1f1; padding: 10px;">
     <h1>MOTTO: INTEGRITY AND KNOWLEDGE</h1>
 
-    <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province. 
+    <p>St. George’s Girls’ Secdondary School is a Public Provincial Girls’ Boarding School in Nairobi Province. 
         The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
         Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
         The school population stands at 1190 girls currently with 6 classes each. Our girls are mainly from 
