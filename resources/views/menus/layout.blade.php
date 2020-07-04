@@ -36,7 +36,6 @@ body {
   -ms-flex: 1;
   flex: 1;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -50,7 +49,7 @@ body {
 .middle,
 .right {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 100px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the left column */
@@ -110,35 +109,17 @@ body {
 
 
   
-<div class="container text-center">    
-  <h3>What We Do</h3><br>
-    <div class="row">
-        <div class="col-sm-3">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <p>Current Project</p>
-        </div>
-        <div class="col-sm-3"> 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <p>Project 2</p>    
-        </div>
-        
-        <div class="col-sm-3">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <p>Project 3</p> 
-        </div>
-        
-        <div class="col-sm-3">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <p>Project 4</p> 
-        </div>
-
-    </div> 
-</div><br>
 
 
 
 <div class="row">
-  <div class="column" style="background-color:#ccc;">Column</div>
+  <div class="column" style="background-color:#ccc;">
+  
+    <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province.
+      The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
+      Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
+      The school population stands at 984 girls currently with 5 classes each.</p>
+  </div>
   <div class="column" style="background-color:#ccc;">Column</div>
   <div class="column" style="background-color:#ccc;">Column</div>
 </div>
