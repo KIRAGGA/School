@@ -23,9 +23,9 @@ class menusController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-     public function AboutUs ()
+     public function aboutus ()
      {
-        return view('menus.AboutUs');
+        return view('menus.aboutus');
      }
 
     public function create()

@@ -18,7 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/menus', 'MenusController@AboutUs');
+Route::get('/aboutus', function () 
+{
+    return view('menus.aboutus');
+});
 
 Auth::routes();
 
