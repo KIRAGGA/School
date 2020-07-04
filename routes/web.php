@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/menus', 'MenusCountroller@AboutUs');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
