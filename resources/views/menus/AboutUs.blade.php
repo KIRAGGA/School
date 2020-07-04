@@ -3,8 +3,7 @@
 @section('content')
 
 
-    <header style=" background-color: #666; padding: 30px ; text-align: left; font-size: 35px; color: white;">
-        <p></p>
+    <header style=" background-color: #666; padding: 30px ; text-align: left; font-size: 35px; grid-area: header; color: white;">
         <h1>About the School</h1>
     </header>
 
