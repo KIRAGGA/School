@@ -35,36 +35,16 @@ body {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  padding: 10px;
+   padding: 30px;
+ 
+   
 }
 
 /* Style the footer */
 .footer {
-  background-color: #aaa;
-  padding: 10px;
+  background-color: #bbb;
+  padding: 30px;
   text-align: center;
-}
-
-.left,
-.middle,
-.right {
-  padding: 10px;
-  height: 100px; /* Should be removed. Only for demonstration */
-}
-
-/* Style the left column */
-.left {
-  grid-area: left;
-}
-
-/* Style the middle column */
-.middle {
-  grid-area: middle;
-}
-
-/* Style the right column */
-.right {
-  grid-area: right;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -74,6 +54,7 @@ body {
     flex-direction: column;
   }
 }
+
 </style>
 </head>
 <body>
@@ -90,7 +71,17 @@ body {
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
+                <li><a href="">Home</a></li>
+                <li>
+                    <a href="#about">About Us</a>
+                      <ul>
+                        <li><a href="">About the School</a></li>
+                        <li><a href="">Mission & Vision</a></li>
+                        <li><a href="">Principal's Message</a></li>
+                        <li><a href="">The Staff</a></li>
+                        <li><a href="">School Facilities</a></li>
+                      </ul>
+                </li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#pricing">PRICING</a></li>
@@ -101,32 +92,34 @@ body {
 </nav>
 
 
-
-
 @yield('content')
 
-
-
-
-  
-
-
-
 <div class="row">
-  <div class="column" style="background-color:#ccc;">
-  
+  <div class="column" style="background-color:#ccc;"><h3>About Us</h3>
     <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province.
-      The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
-      Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
-      The school population stands at 984 girls currently with 5 classes each.</p>
+        The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
+        Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
+        The school population stands at 984 girls currently with 5 classes each.
+    </p>
   </div>
-  <div class="column" style="background-color:#ccc;">Column</div>
+  <div class="column" style="background-color:#ccc;">
+  <h3>Contact Details</h3>
+  <p>St. Georges Girls Secondary School</p>
+
+<br>P.O. BOX 11635-00400 Nairobi, Kenya
+
+<br><br>Dennis Pritt Road, Kilimani
+
+<p>Phone No: 020-2719857</p>
+
+<p>Email: info@stgeorgesgirlsnairobi.ac.ke</p></div>
   <div class="column" style="background-color:#ccc;">Column</div>
 </div>
 
 <div class="footer">
-  <p>Footer</p>
+  <p style="text-align: left;">Copyright&copy; St. George’s Girls’ Secondary School</p>
 </div>
+
 
 </body>
 </html>
