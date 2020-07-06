@@ -7,7 +7,7 @@
         <h1>About the School</h1>
     </header>
 
-<aside style="-webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #f1f1f1; padding: 10px;">
+<section style="-webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #f1f1f1; padding: 10px;">
     <h1>MOTTO: INTEGRITY AND KNOWLEDGE</h1>
 
     <p>St. George’s Girls’ Secdondary School is a Public Provincial Girls’ Boarding School in Nairobi Province. 
@@ -17,7 +17,10 @@
         Nairobi County but about one tenth of them are picked from the other 46 Counties. 
         We are also hosting the UNICEF girls and Affirmative Action girls from marginalized districts. 
         Our performance through the years has been very good in the KCSE KNEC Examinations.
-</p>
-</aside>
+    </p>
+    <aside>
+        <img src="../../public/Storage/images/koflog.jpg" alt="imagesss">
+    </aside>
+</section>
     
 @endsection

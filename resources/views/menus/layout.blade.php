@@ -47,6 +47,12 @@ body {
   text-align: center;
 }
 
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}/* this is the section for aboutus photo  */
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .row {
