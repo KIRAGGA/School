@@ -160,7 +160,7 @@ section:after {
 <p>Phone No: 020-2719857</p>
 
 <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p></div>
-  <div class="column" style="background-color:#ccc;">Column</div>
+  <div class="column" style="background-color:#ccc;">Columndd</div>
 </div>
 
 <div class="footer">
