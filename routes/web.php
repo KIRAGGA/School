@@ -23,6 +23,11 @@ Route::get('/aboutus', function ()
     return view('menus.aboutus');
 });
 
+Route::get('/staff', function ()
+{
+    return view('menus.staff');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
