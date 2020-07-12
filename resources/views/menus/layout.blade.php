@@ -24,20 +24,25 @@ body {
   font-size: 35px;
 }
 
-/* Container for flexboxes */
-.row {
-  display: -webkit-flex;
-  display: flex;
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
 }
 
-/* Create three equal columns that sits next to each other */
-.column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-   padding: 30px;
- 
-   
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /* Style the footer */
@@ -52,14 +57,6 @@ section:after {
   display: table;
   clear: both;
 }/* this is the section for aboutus photo  */
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-}
 
 </style>
 </head>
