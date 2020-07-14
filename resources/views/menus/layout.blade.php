@@ -13,37 +13,37 @@
 }
 
 body {
+ 
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
-  padding: 15px;
+  padding: 25px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.rows:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
-}
+} */
 
 /* Style the footer */
 .footer {
@@ -140,26 +140,27 @@ section:after {
 
 @yield('content')
 
-<div class="row">
-  <div class="column" style="background-color:#ccc;"><h3>About Us</h3>
+<div class="rows" style="background-color:#ccc;">
+  <div class="column">
+    <h3>About Us</h3>
     <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province.
         The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
         Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
-        The school population stands at 984 girls currently with 5 classes each.
+        The school population stands at 984 girls currently with 5 classes each. 
     </p>
   </div>
-  <div class="column" style="background-color:#ccc;">
-  <h3>Contact Details</h3>
-  <p>St. Georges Girls Secondary School</p>
+  <div class="column">
+    <h3>Contact Details</h3>
+    <p>St. Georges Girls Secondary School</p>
 
-<br>P.O. BOX 11635-00400 Nairobi, Kenya
+    <br>P.O. BOX 11635-00400 Nairobi, Kenya
 
-<br><br>Dennis Pritt Road, Kilimani
+    <br><br>Dennis Pritt Road, Kilimani
 
-<p>Phone No: 020-2719857</p>
+    <p>Phone No: 020-2719857</p>
 
-<p>Email: info@stgeorgesgirlsnairobi.ac.ke</p></div>
-  <div class="column" style="background-color:#ccc;">Columndd</div>
+    <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p></div>
+  <div class="column">Columndd</div>
 </div>
 
 <div class="footer">
