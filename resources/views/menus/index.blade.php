@@ -23,7 +23,7 @@
         <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
         <div class="carousel-caption">
           <h3>More Sell $</h3>
-          <p>Lorem ipsum...</p>
+          <p>thiss.</p>
         </div>      
       </div>
     </div>

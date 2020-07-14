@@ -58,26 +58,7 @@ section:after {
   clear: both;
 }/* this is the section for aboutus photo  */
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 </style>
 </head>
 <body>
@@ -99,8 +80,6 @@ section:after {
                 <li><a href="#about">About Us</a>
                       {{-- <ul>
                         <li><a href="">About the School</a></li>
-                        <li><a href="">Mission & Vision</a></li>
-                        <li><a href="">Principal's Message</a></li>
                         <li><a href="">The Staff</a></li>
                         <li><a href="">School Facilities</a></li>
                       </ul> --}}
