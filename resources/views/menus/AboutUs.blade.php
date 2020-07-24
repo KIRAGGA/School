@@ -17,10 +17,12 @@
         Nairobi County but about one tenth of them are picked from the other 46 Counties. 
         We are also hosting the UNICEF girls and Affirmative Action girls from marginalized districts. 
         Our performance through the years has been very good in the KCSE KNEC Examinations.
-</p>
+    </p>
 
-<p>MISSION: TO PROVIDE HOLISTIC KNOWLEDGE AND EFFECTIVELY EMPOWER MEMBERS TO GREATER HEIGHTS OF SUCCESS...</p>
-<img src="../public/storage/images/kcoflogo.jpg" alt="this is am">
+    <p>MISSION: TO PROVIDE HOLISTIC KNOWLEDGE AND EFFECTIVELY EMPOWER MEMBERS TO GREATER HEIGHTS OF SUCCESS...</p>
+    <img src="../public/storage/images/kcoflogo.jpg" alt="this is am">
 </div>
+
+
     
 @endsection
