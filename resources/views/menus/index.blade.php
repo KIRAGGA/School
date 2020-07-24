@@ -14,15 +14,15 @@
       <div class="item active">
         <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
         <div class="carousel-caption">
-          <h3>Sell $</h3>
-          <p>Money Money.</p>
+          <h3>School</h3>
+          <p>Administration</p>
         </div>      
       </div>
 
       <div class="item">
         <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
         <div class="carousel-caption">
-          <h3>More Sell $</h3>
+          <h3>Sch</h3>
           <p>thiss.</p>
         </div>      
       </div>
