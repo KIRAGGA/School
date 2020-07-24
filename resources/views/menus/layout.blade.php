@@ -57,8 +57,9 @@ section:after {
   display: table;
   clear: both;
 }/* this is the section for aboutus photo  */
-.navbar a:hover, .navbar-nav a:hover, navbar{
-  background-color: red;
+
+.dropdown-toggle .dropdown-menu a:hover{
+  background-color: cornflowerblue;
 }
 
 </style>
