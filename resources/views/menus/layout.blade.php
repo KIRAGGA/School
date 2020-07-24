@@ -177,6 +177,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
         The school population stands at 984 girls currently with 5 classes each. 
     </p>
   </div>
+  
+
+  <div class="column">
+    <h3>School Direction</h3>
+  </div>
+
   <div class="column">
     <h3>Contact Details</h3>
     <p>St. Georges Girls Secondary School</p>
@@ -187,8 +193,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
     <p>Phone No: 020-2719857</p>
 
-    <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p></div>
-  <div class="column">Columndd</div>
+    <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p>
+  </div>
+
 </div>
 
 <div class="footer">

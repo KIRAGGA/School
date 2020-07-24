@@ -7,6 +7,7 @@
 </header>
 
 <div>
+  
     <p>The Curriculum offered at St. George’s Girls’ Secondary school consists of 16 subjects listed below.</p>
     <table>
         <tr>
