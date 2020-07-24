@@ -28,6 +28,16 @@ Route::get('/staff', function ()
     return view('menus.staff');
 });
 
+Route::get('/schoolcurriculum', function ()
+{
+return view('menus.schoolcurriculum');
+});
+
+Route::get('/department', function ()
+{
+return view('menus.department');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
