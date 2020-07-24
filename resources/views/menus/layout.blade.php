@@ -59,98 +59,43 @@ section:after {
 }/* this is the section for aboutus photo  */
 
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
 </style>
 </head>
 <body>
 
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#myPage">Logo</a>
-        </div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage">Logo</a>
+      </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Home</a></li>
+              <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
+          <ul class="dropdown-menu">
+                      <li><a href="">About the School</a></li>
+                      <li><a href="">The Staff</a></li>
+                      <li><a href="">School Facilities</a></li>
+          </ul>
+        </li>
 
-
-                <div class="dropdown">
-                  <li class="dropbtn"> About Us</li>
-                  <div class="dropdown-content">
-                    
-                    
-                      <a href="">About the School</a>
-                      <a href="">The Staff</a>
-                      <a href="">School Facilities</a>
-                    
-                  </div>
-                </div>
-
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
+          <ul class="dropdown-menu">
+                      <li><a href="">Management</a></li>
+                      <li><a href="">The Staff</a></li>
+                      <li><a href="">Other Department</a></li>
+          </ul>
+        </li>
                 
-                <li><a href="">Administration</a>
-                    {{-- <ul>
-                      {{-- <li><a href="">The Management & B.O.G</a></li>
-                      <li><a href="">Senior Management</a></li>
-                      <li><a href="">Accounts Department</a></li>
-                      <li><a href="">Secretaries</a></li>
-                      <li><a href="">Stores Department</a></li>
-                      <li><a href="">Boarding Department</a></li>
-                      <li><a href="">Transport Department</a></li>
-                    </ul> --}}
-                </li>
+                
                 <li><a href="">Academics</a>
                     {{-- <ul>
                       <li><a href="">Departments</a></li>
