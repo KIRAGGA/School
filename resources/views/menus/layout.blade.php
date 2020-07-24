@@ -19,6 +19,7 @@ body {
 
 /* Style the header */
 .header {
+  wid
   padding: 30px;
   text-align: center;
   font-size: 25px;
@@ -129,6 +130,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
                         </ul>
                       <li><a href="">Achievements</a></li>
                       <li><a href="">School Curriculum</a></li>
+                      <li><a href="">Events</a></li>
                     </ul>
                   </li>
                         
@@ -138,27 +140,18 @@ tr:nth-child(even) {background-color: #f2f2f2;}
                     <ul class="dropdown-menu">
                       <li><a href="">Admission Form</a></li>
                       <li><a href="">Term Dates</a></li>
-                      <li><a href="">School Fees Payment Structure</a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular</a>
                         <ul class="dropdown-menu">
+                          <li><a href="">School Tours & Gallery</a></li>
                             <li><a href="">Games & Sports</a></li>
                             <li><a href="">Clubs & Societies</a></li>
                         </ul>
                   </li>
-                    
-                          
-                  <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="">School Tours / Gallery</a></li>
-                          <li><a href="">Events</a></li>
-                        </ul>
-                  </li>
-                      
+                                       
                           <li><a href="">Contact Us</a></li>
             </ul>
         </div>
@@ -170,7 +163,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 <div class="rows" style="background-color:#ccc;">
   <div class="column">
-    <h3>About Us</h3>
+    <h2>About Us</h2><hr>
     <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province.
         The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
         Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
@@ -180,11 +173,11 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   
 
   <div class="column">
-    <h3>School Direction</h3>
+    <h2>School Direction</h2><hr>
   </div>
 
   <div class="column">
-    <h3>Contact Details</h3>
+    <h2>Contact Details</h2><hr>
     <p>St. Georges Girls Secondary School</p>
 
     <br>P.O. BOX 11635-00400 Nairobi, Kenya
