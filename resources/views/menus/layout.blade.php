@@ -127,20 +127,24 @@ section:after {
           </ul>
         </li>
 
-                >
-                <li><a href="#">Co-Curricular</a>
-                    {{-- <ul>
-                      <li><a href="">Games & Sports</a></li>
-                      <li><a href="">Clubs & Societies</a></li>
-                    </ul> --}}
-                </li>
-                <li><a href="">Resources</a>
-                    {{-- <ul>
-                      <li><a href="">School Tours / Gallery</a></li>
-                      <li><a href="">Events</a></li>
-                    </ul> --}}
-                </li>
-                <li><a href="">Contact</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular</a>
+              <ul class="dropdown-menu">
+                  <li><a href="">Games & Sports</a></li>
+                  <li><a href="">Clubs & Societies</a></li>
+              </ul>
+        </li>
+          
+                
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
+              <ul class="dropdown-menu">
+                <li><a href="">School Tours / Gallery</a></li>
+                <li><a href="">Events</a></li>
+              </ul>
+        </li>
+            
+                <li><a href="">Contact Us</a></li>
             </ul>
         </div>
   </div>
