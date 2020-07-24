@@ -57,7 +57,9 @@ section:after {
   display: table;
   clear: both;
 }/* this is the section for aboutus photo  */
-
+.navbar a:hover, .navbar-nav a:hover, navbar{
+  background-color: red;
+}
 
 </style>
 </head>
@@ -72,79 +74,79 @@ section:after {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#myPage">Logo</a>
+        <a class="navbar-brand" href="#">Logo</a>
       </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
-          <ul class="dropdown-menu">
-                      <li><a href="">About the School</a></li>
-                      <li><a href="">The Staff</a></li>
-                      <li><a href="">School Facilities</a></li>
-          </ul>
-        </li>
+                        <li class="active"><a href="#">Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
+                    <ul class="dropdown-menu">
+                                <li><a href="">About the School</a></li>
+                                <li><a href="">The Staff</a></li>
+                                <li><a href="">School Facilities</a></li>
+                    </ul>
+                  </li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
-          <ul class="dropdown-menu">
-                      <li><a href="">The Management & B.O.G</a></li>
-                      <li><a href="">Senior Management</a></li>
-                      <li><a href="">Accounts Department</a></li>
-                      <li><a href="">Secretaries</a></li>
-                      <li><a href="">Stores Department</a></li>
-                      <li><a href="">Boarding Department</a></li>
-                      <li><a href="">Transport Department</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics</a>
-            <ul class="dropdown-menu">
-              <li><a href="">Departments</a></li>
-                <ul class="dropdown-menu">
-                  <li><a href="">Languages</a></li>
-                  <li><a href="">Humanities</a></li>
-                  <li><a href="">Science</a></li>
-                  <li><a href="">Mathematics</a></li>
-                  <li><a href="">Technical Department</a></li>
-                  <li><a href="">Guidance & Counseling</a></li>
-                  <li><a href="">Careers</a></li>
-                  <li><a href="">Library</a></li>
-              </ul>
-            <li><a href="">Achievements</a></li>
-            <li><a href="">School Curriculum</a></li>
-          </ul>
-        </li>
-              
-                
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admission</a>
-          <ul class="dropdown-menu">
-            <li><a href="">Admission Form</a></li>
-            <li><a href="">Term Dates</a></li>
-            <li><a href="">School Fees Payment Structure</a></li>
-          </ul>
-        </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
+                    <ul class="dropdown-menu">
+                                <li><a href="">The Management & B.O.G</a></li>
+                                <li><a href="">Senior Management</a></li>
+                                <li><a href="">Accounts Department</a></li>
+                                <li><a href="">Secretaries</a></li>
+                                <li><a href="">Stores Department</a></li>
+                                <li><a href="">Boarding Department</a></li>
+                                <li><a href="">Transport Department</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="">Departments</a></li>
+                          <ul class="dropdown-menu">
+                            <li><a href="">Languages</a></li>
+                            <li><a href="">Humanities</a></li>
+                            <li><a href="">Science</a></li>
+                            <li><a href="">Mathematics</a></li>
+                            <li><a href="">Technical Department</a></li>
+                            <li><a href="">Guidance & Counseling</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Library</a></li>
+                        </ul>
+                      <li><a href="">Achievements</a></li>
+                      <li><a href="">School Curriculum</a></li>
+                    </ul>
+                  </li>
+                        
+                          
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admission</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="">Admission Form</a></li>
+                      <li><a href="">Term Dates</a></li>
+                      <li><a href="">School Fees Payment Structure</a></li>
+                    </ul>
+                  </li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular</a>
-              <ul class="dropdown-menu">
-                  <li><a href="">Games & Sports</a></li>
-                  <li><a href="">Clubs & Societies</a></li>
-              </ul>
-        </li>
-          
-                
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
-              <ul class="dropdown-menu">
-                <li><a href="">School Tours / Gallery</a></li>
-                <li><a href="">Events</a></li>
-              </ul>
-        </li>
-            
-                <li><a href="">Contact Us</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Games & Sports</a></li>
+                            <li><a href="">Clubs & Societies</a></li>
+                        </ul>
+                  </li>
+                    
+                          
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="">School Tours / Gallery</a></li>
+                          <li><a href="">Events</a></li>
+                        </ul>
+                  </li>
+                      
+                          <li><a href="">Contact Us</a></li>
             </ul>
         </div>
   </div>
