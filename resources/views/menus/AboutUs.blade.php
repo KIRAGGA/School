@@ -21,7 +21,7 @@
 
     <p>MISSION: TO PROVIDE HOLISTIC KNOWLEDGE AND EFFECTIVELY EMPOWER MEMBERS TO GREATER HEIGHTS OF SUCCESS...</p>
     {{-- <img src="../public/storage/images/kcoflogo.jpg" alt="this is am"> --}}
-    <img src="{{ asset('public/storage/images/kcoflogo.jpg')}}">
+    <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 350px;">
 </div>
 
 

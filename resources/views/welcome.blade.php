@@ -101,7 +101,7 @@
                     </div>
 
                     <div class="item">
-                    <img src="{{URL::asset('/storage/images/sbgs2020.png')}}" alt="Image" style="height:75%">
+                    <img src="{{URL::asset('/storage/images/sbgs2020.png')}}" alt="Image" style="height: 100px">
                         <div class="carousel-caption">
                         <h3>KCHGHH</h3>
                         <p>thiss...</p>
@@ -124,7 +124,7 @@
 
                 <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="{{URL::asset('/storage/images/capture.png')}}" style="width:100%" class="w3-hover-opacity">
+      <img src="{{URL::asset('/storage/images/capture.png')}}" style="width: 450px;" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsumss</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
@@ -132,14 +132,14 @@
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
         
-      <img src="{{URL::asset('/storage/images/capture.png')}}" style="width:100%" class="w3-hover-opacity">
+      <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 450px;">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="/w3images/nature.jpg" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 450px;" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
