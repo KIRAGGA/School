@@ -135,7 +135,7 @@
 
                 <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="{{URL::asset('/storage/images/capture.png')}}" style="width: 450px;" class="w3-hover-opacity">
+      <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsumss</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
@@ -143,14 +143,14 @@
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
         
-      <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 450px;">
+      <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 450px;" class="w3-hover-opacity">
+      <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Lorem Ipsum</b></p>
         <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
