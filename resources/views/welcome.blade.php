@@ -88,25 +88,36 @@
                     <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
-                        <div class="carousel-caption">
-                        <h3>School</h3>
-                        <p>Administration</p>
-                        </div>      
-                    </div>
+                        <div class="item active">
+                            <img src="{{URL::asset('/storage/images/nuts.png')}}" alt="Image" style="height: 400px; width:1350px">
+                            <div class="carousel-caption">
+                            <h3>School</h3>
+                            <p>Administration</p>
+                            </div>      
+                        </div>
 
-                    <div class="item">
-                    <img src="{{URL::asset('/storage/images/sbgs2020.png')}}" alt="Image" style="height: 100px">
-                        <div class="carousel-caption">
-                        <h3>KCHGHH</h3>
-                        <p>thiss...</p>
-                        </div>      
-                    </div>
+
+                        <div class="item">
+                            <img src="{{URL::asset('/storage/images/uganda.png')}}" alt="Image" style="height: 400px; width:1350px">
+                                <div class="carousel-caption">
+                                <h3>KCHGHH</h3>
+                                <p>thiss...</p>
+                                </div>      
+                        </div>
+
+
+                        <div class="item">
+                        <img src="{{URL::asset('/storage/images/sbgs2020.png')}}" alt="Image" style="height: 400px; width:1350px">
+                            <div class="carousel-caption">
+                            <h3>KCHGHH</h3>
+                            <p>thiss...</p>
+                            </div>      
+                        </div>
                     </div>
 
                     <!-- Left and right controls -->
