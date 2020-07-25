@@ -101,10 +101,10 @@
                     </div>
 
                     <div class="item">
-                        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+                    <img src="{{URL::asset('/storage/images/sbgs2020.png')}}" alt="Image" height="200">
                         <div class="carousel-caption">
-                        <h3>Sch</h3>
-                        <p>thiss.</p>
+                        <h3>KCHGHH</h3>
+                        <p>thiss...</p>
                         </div>      
                     </div>
                     </div>
@@ -119,6 +119,33 @@
                     <span class="sr-only">Next</span>
                     </a>
                 </div>
+
+
+
+                <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
                     
                 @endsection
         {{-- </div> --}}
