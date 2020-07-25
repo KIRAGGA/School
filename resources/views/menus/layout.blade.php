@@ -154,7 +154,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
                         </ul>
                   </li>
                                        
-                          <li><a href="">Contact Us</a></li>
+                          <li><a href="welcome.php">Contact Us</a></li>
             </ul>
         </div>
   </div>

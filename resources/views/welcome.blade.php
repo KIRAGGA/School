@@ -133,15 +133,24 @@
 
 
 
-                <div class="w3-row-padding">
-                        <div class="w3-third w3-container w3-margin-bottom">
+                <div class="row">
+                        <div class="column">
                             <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                             <div class="w3-container w3-white">
                                 <p><b>Lorem Ipsumss</b></p>
                                 <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
                             </div>
                         </div>
-                        <div class="w3-third w3-container w3-margin-bottom">
+
+                        <div class="column">
+                            <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                            <div class="w3-container w3-white">
+                                <p><b>Lorem Ipsumss</b></p>
+                                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                        </div>
+
+                        <div class="column">
                                 
                             <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;">
                             <div class="w3-container w3-white">
@@ -149,7 +158,8 @@
                                 <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
                             </div>
                         </div>
-                        <div class="w3-third w3-container">
+                        
+                        <div class="column">
                             <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                             <div class="w3-container w3-white">
                                 <p><b>Lorem Ipsum</b></p>
