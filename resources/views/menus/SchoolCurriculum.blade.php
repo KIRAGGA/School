@@ -2,12 +2,13 @@
 
 @section('content')
 
-<header style=" background-color: #666; padding: 30px ; text-align: left; font-size: 35px; grid-area: header; color: white;">
-    <h1>School Curriculum</h1>
+<header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
+  <h1 style="height: 100px; width: 244px">School Curriculum</h1>
 </header>
 
+
 <div>
-  
+
     <p>The Curriculum offered at St. George’s Girls’ Secondary school consists of 16 subjects listed below.</p>
     <table>
         <tr>

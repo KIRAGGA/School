@@ -2,9 +2,10 @@
 
 @section('content')
 
-<header style=" background-color: #664; padding: 30px ; text-align: left; font-size: 35px; grid-area: header; color: white;">
-    <h1>Term Dates</h1>
+<header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
+    <h1 style="height: 100px; width: 244px">Term Dates</h1>
 </header>
+
     
 <h1>
     TERM DATES FOR TERM ONE
@@ -15,7 +16,7 @@
         <li>Form 4 to report at 8.00 am</li>
         <li>Form 4 to report at 8.00 am</li>
         <li>Form 4 to report at 8.00 am</li>
-        
+
     </ul>
 </P>
 @endsection

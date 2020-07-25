@@ -2,7 +2,7 @@
 
     @section('content')
 
-        <header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; width: 1349px; height: 90px">
+        <header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
             <h1 style="height: 100px; width: 244px">Departments</h1>
         </header>
 
