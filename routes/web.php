@@ -38,6 +38,11 @@ Route::get('/department', function ()
 return view('menus.department');
 });
 
+Route::get('/contact' , function ()
+{
+return view('mmenu.contact');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
