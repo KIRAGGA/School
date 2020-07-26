@@ -5,6 +5,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
@@ -59,7 +64,7 @@ section:after {
   clear: both;
 }/* this is the section for aboutus photo  */
 
-.dropdown-toggle .dropdown-menu a:hover{
+.dropdown a:hover{
   background-color: cornflowerblue;
 }
 
@@ -94,7 +99,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
       </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active">
+                          <a href="#">Home</a>
+                        </li>
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
                     <ul class="dropdown-menu">
@@ -154,7 +161,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
                         </ul>
                   </li>
                                        
-                          <li><a href="welcome.php">Contact Us</a></li>
+                          <li>
+                            <a href="welcome">Contact Us</a>
+                          </li>
             </ul>
         </div>
   </div>
@@ -189,6 +198,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     <p>Phone No: 020-2719857</p>
 
     <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p>
+    <a class="w3-button w3-large w3-teal" href="" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
   </div>
 
 </div>
