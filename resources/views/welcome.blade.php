@@ -131,14 +131,14 @@
                     </a>
                 </div>
 
-
-                <aside style="padding: 30px">
-                    <br>
-                    <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                    <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+{{-- Second div --}}
+                <div>
+                    <p style="float: left; padding: 15px;"><img src="{{URL::asset('/storage/images/capture.png')}}" 
+                        alt="school" style="border: 1px solid #ddd; border-radius: 2px; padding: 5px; width: 276px;" class="w3-hover-opacity"></p><br>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
                       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                      laboris nisi ut aliquip ex ea commodo consequat.
-                </aside></p>
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
 
                 {{-- the vision, mission and motto of the school --}}
                 <div class="rows" style="align-items: center">
@@ -176,26 +176,26 @@
 
                 <div class="w3-row-padding w3-grayscale">
                     <div class="w3-col l3 m6 w3-margin-bottom">
-                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 2px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                       
                       <h3 class="w3-opacity">Languages Department</h3>
                       <p>This comprises of various languages like French, Swahili, Germany and English</p>
                       
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 2px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                                 <h3 class="w3-opacity">Humanities Department</h3>
                             <p>This comprises of social arts like history, divinity and others.</p>
                         
                         </div>
                         <div class="w3-col l3 m6 w3-margin-bottom">
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 2px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                                <h3 class="w3-opacity">Sciences Department</h3>
                             <p>This Department comprises of Biology, physics and chemistry.</p>
                         
                         </div>
                         <div class="w3-col l3 m6 w3-margin-bottom">
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 2px; padding: 5px; width: 276px;" class="w3-hover-opacity">
                                 <h3 class="w3-opacity">Mathematics Department</h3>
                             <p>This comprises of 7 teachers who ensure that students get to know the Mathematics concepts.</p>
                         
