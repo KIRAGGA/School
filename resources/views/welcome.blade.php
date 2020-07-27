@@ -131,9 +131,14 @@
                     </a>
                 </div>
 
-                <div class="w3-container w3-padding-32" id="about"><hr>
+
+                <div>
+
+                </div>
+
+                <div class="w3-container w3-padding-32"  id="about"><hr>
                     <h3 class="w3-padding-16" style="text-align: center">School Department</h3>
-                    <p>The school is divided into four departments mainly:- 
+                    <p style="text-align: center; font-size: 16px">The school is divided into four departments mainly:- 
                         Languages, Humanities, Sciences and finally Mathematics Department as follows:-
                     </p>
                   </div>

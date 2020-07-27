@@ -175,7 +175,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 <div class="rows" style="background-color:#ccc;">
   <div class="column">
     <h2>About Us</h2><hr>
-    <p>St. George’s Girls’ Secondary School is a Public Provincial Girls’ Boarding School in Nairobi Province.
+    <p>This is a Secondary School is a Public Provincial mixed Boarding School in Nairobi Province.
         The school started in 1986 as a Mixed Day School but later converted to a Girls’ 
         Boarding School when the boys were relocated to Nairobi Milimani Secondary School. 
         The school population stands at 984 girls currently with 5 classes each. 
@@ -189,25 +189,25 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
   <div class="column">
     <h2>Contact Details</h2><hr>
-    <p>St. Georges Girls Secondary School</p>
-
-    <br>P.O. BOX 11635-00400 Nairobi, Kenya
-
-    <br><br>Dennis Pritt Road, Kilimani
-
-    <p>Phone No: 020-2719857</p>
-
-    <p>Email: info@stgeorgesgirlsnairobi.ac.ke</p>
-    <a class="w3-button w3-large w3-teal" href="" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+    <p>This is a Secondary School</p>
+    <p>P.O. BOX 000-0000 Nairobi, Kenya</p>
+    <p>Ngongo road, Nairobi, Kenya</p>
+    <p>Phone No: +254711111100</p>
+    <p>Email: info@school.co.ug</p>
+    <div class="w3-panel w3-large">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
   </div>
 
 </div>
 
 <div class="footer">
-  <p style="text-align: left;">Copyright&copy; St. George’s Girls’ Secondary School</p>
+  <p style="text-align: left;">Copyright&copy; This is a Secondary School</p>
 </div>
 
 
