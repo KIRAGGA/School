@@ -133,31 +133,37 @@
 
 
 
-                <div class="w3-row-padding">
-                        <div class="w3-third w3-container w3-margin-bottom">
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                            <div class="w3-container w3-white">
-                                <p><b>Lorem Ipsumss</b></p>
-                                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                            </div>
-                        </div>
-                        <div class="w3-third w3-container w3-margin-bottom">
-                                
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;">
-                            <div class="w3-container w3-white">
-                                <p><b>Lorem Ipsum</b></p>
-                                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                            </div>
-                        </div>
-                        <div class="w3-third w3-container">
-                            <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                            <div class="w3-container w3-white">
-                                <p><b>Lorem Ipsum</b></p>
-                                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                            </div>
-                        </div>
-                </div>
-
+                <div class="w3-row-padding w3-grayscale">
+                    <div class="w3-col l3 m6 w3-margin-bottom">
+                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                      <h3>John Doe</h3>
+                      <p class="w3-opacity">CEO & Founder</p>
+                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                    </div>
+                    <div class="w3-col l3 m6 w3-margin-bottom">
+                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                      <h3>Jane Doe</h3>
+                      <p class="w3-opacity">Architect</p>
+                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                    </div>
+                    <div class="w3-col l3 m6 w3-margin-bottom">
+                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                      <h3>Mike Ross</h3>
+                      <p class="w3-opacity">Architect</p>
+                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                    </div>
+                    <div class="w3-col l3 m6 w3-margin-bottom">
+                        <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                      <h3>Dan Star</h3>
+                      <p class="w3-opacity">Architect</p>
+                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                    </div>
+                  </div>
+                
                     
                 @endsection
         {{-- </div> --}}
