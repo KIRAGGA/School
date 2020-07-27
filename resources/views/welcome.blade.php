@@ -131,35 +131,40 @@
                     </a>
                 </div>
 
-
+                <div class="w3-container w3-padding-32" id="about"><hr>
+                    <h3 class="w3-border-bottom w3-padding-16" style="text-align: center">School Department</h3>
+                    <p>The school is divided into four departments mainly:- 
+                        Languages, Humanities, Sciences and finally Mathematics Department as follows:-
+                    </p>
+                  </div>
 
                 <div class="w3-row-padding w3-grayscale">
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                      <h3>John Doe</h3>
-                      <p class="w3-opacity">CEO & Founder</p>
-                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                      <h3 class="w3-opacity">Languages Department</h3>
+                      <p>This comprises of various languages like French, Swahili, Germany and English</p>
                       
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                      <h3>Jane Doe</h3>
-                      <p class="w3-opacity">Architect</p>
-                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                      <h3 class="w3-opacity">Humanities Department</h3>
+                      <p>This comprises of social arts like history, divinity and others.</p>
                       
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                      <h3>Mike Ross</h3>
-                      <p class="w3-opacity">Architect</p>
-                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                      <h3 class="w3-opacity">Sciences Department</h3>
+                      <p>This Department comprises of Biology, physics and chemistry.</p>
                       
                     </div>
                     <div class="w3-col l3 m6 w3-margin-bottom">
                         <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
-                      <h3>Dan Star</h3>
-                      <p class="w3-opacity">Architect</p>
-                      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                      
+                      <h3 class="w3-opacity">Mathematics Department</h3>
+                      <p>This comprises of 7 teachers who ensure that students get to know the Mathematics concepts.</p>
                       
                     </div>
                   </div>
