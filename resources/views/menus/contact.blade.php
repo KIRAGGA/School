@@ -1,7 +1,11 @@
-@extends('menu.layout')
+@extends('menus.layout')
 
 @section('content')
     
+<header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
+    <h1 style="height: 100px; width: 244px">Contact US</h1>
+</header>
+
  <!-- Contact Section -->
  <div class="w3-container w3-padding-large w3-grey">
     <h4 id="contact"><b>Contact Me</b></h4>
@@ -12,11 +16,11 @@
       </div>
       <div class="w3-third w3-teal">
         <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-        <p>Chicago, US</p>
+        <p>Nairobi, Kenya</p>
       </div>
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-        <p>512312311</p>
+        <p>+254711111010</p>
       </div>
     </div>
     <hr class="w3-opacity">

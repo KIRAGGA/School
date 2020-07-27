@@ -40,7 +40,7 @@ return view('menus.department');
 
 Route::get('/contact' , function ()
 {
-return view('mmenu.contact');
+return view('menus.contact');
 });
 
 Auth::routes();
