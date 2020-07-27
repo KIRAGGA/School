@@ -187,7 +187,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     <h2>School Direction</h2><hr>
   </div>
 
-  <div class="column">
+  <div class="column" style="">
     <h2>Contact Details</h2><hr>
     <p>This is a Secondary School</p>
     <p>P.O. BOX 000-0000 Nairobi, Kenya</p>

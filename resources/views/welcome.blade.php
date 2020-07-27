@@ -132,9 +132,40 @@
                 </div>
 
 
-                <div>
+                <aside style="padding: 30px">
+                    <br>
+                    <img src="{{URL::asset('/storage/images/capture.png')}}" alt="Norway" style="border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 276px;" class="w3-hover-opacity">
+                    <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                </aside></p>
 
-                </div>
+                {{-- the vision, mission and motto of the school --}}
+                <div class="rows" style="align-items: center">
+                    <br><hr>
+                    <div class="column" style="text-align: center">
+                     <i class="fa fa-circle-thin" style="font-size:100px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
+                    <h3>Our Vision</h3>
+                    <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
+                    </div>
+                    
+                  
+                    <div class="column">
+                      <i class="fa fa-circle-thin" style="font-size:100px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
+                    <h3>Our Vision</h3>
+                    <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
+                    </div>
+                  
+                    <div class="column">
+                      <i class="fa fa-circle-thin" style="font-size:100px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
+                    <h3>Our Motto</h3>
+                    <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
+                    </div>
+                  
+                  </div>
+
+
+
 
                 <div class="w3-container w3-padding-32"  id="about"><hr>
                     <h3 class="w3-padding-16" style="text-align: center">School Department</h3>
