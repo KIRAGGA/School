@@ -43,6 +43,11 @@ Route::get('/contact' , function ()
 return view('menus.contact');
 });
 
+Route::get('/schoolfacilities' , function ()
+{
+return view('menus.schoolfacilities');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
