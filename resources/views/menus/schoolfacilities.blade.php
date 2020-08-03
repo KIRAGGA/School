@@ -3,7 +3,7 @@
 @section('content')
 
 <header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
-    <h1>School Facilities</h1>
+   <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School Facilities</h1>
 </header>
 <br>
 <div class="responsive">

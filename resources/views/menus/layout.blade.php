@@ -237,12 +237,16 @@ div.desc {
   <div class="column">
     <h2>School Direction</h2><hr>
     <div class="responsive" style="width: auto">
-      <div class="gallery">
+      {{-- <div class="gallery">
         <a target="_blank" href="#">
           <img src="{{URL::asset('/storage/images/capture.png')}}" alt="map" style="border: 1px solid rgb(185, 244, 248); padding: 3px; width: 380px;" class="w3-hover-opacity">
         </a>
         
-      </div>
+      </div> --}}
+
+      <iframe src="" frameborder="0" style="border:0;" allowfullscreen="">
+      
+      </iframe>
     </div>
   </div>
 

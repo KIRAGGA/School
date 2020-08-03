@@ -4,7 +4,7 @@
 
 
 <header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
-    <h1>&nbsp; About the School</h1>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About the School</h1>
 </header>
 
 
