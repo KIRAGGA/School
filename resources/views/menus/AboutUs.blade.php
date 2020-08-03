@@ -4,7 +4,7 @@
 
 
 <header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
-    <h1>About the School</h1>
+    <h1>&nbsp; About the School</h1>
 </header>
 
 
@@ -26,20 +26,20 @@
 <div class="rows" style="align-items: center">
     <br><hr>
     <div class="column" style="text-align: center">
-        
+        <i class="fa fa-circle-thin" style="font-size:150px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
         <h3>Our Vision</h3>
         <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
     </div>
     
   
-    <div class="column">
-        
+    <div class="column" style="text-align: center">
+        <i class="fa fa-circle-thin" style="font-size:150px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
         <h3>Our Vision</h3>
         <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
     </div>
   
-    <div class="column">
-        
+    <div class="column" style="text-align: center">
+        <i class="fa fa-circle-thin" style="font-size:150px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
         <h3>Our Motto</h3>
         <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
     </div>
