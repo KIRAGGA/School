@@ -38,15 +38,15 @@ Route::get('/department', function ()
 return view('menus.department');
 });
 
-Route::get('/contact' , function ()
-{
-return view('menus.contact');
-});
+Route::get('/contact' , 'ContactController@getContact');
+
+Route::post('/contact' , 'ContactController@saveContact');
 
 Route::get('/schoolfacilities' , function ()
 {
 return view('menus.schoolfacilities');
 });
+
 
 Auth::routes();
 
