@@ -42,7 +42,7 @@
 
     <div>
         <img src="{{URL::asset('/storage/images/nuts.png')}}" alt="Image" style="height: 400px; width:1350px">
-    </div>
+    </div><br>
 
     
 @endsection

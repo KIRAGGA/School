@@ -158,13 +158,13 @@
                     </div>
                     
                   
-                    <div class="column">
+                    <div class="column" style="text-align: center">
                         <i class="fa fa-circle-thin" style="font-size:100px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
                         <h3>Our Vision</h3>
                         <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
                     </div>
                   
-                    <div class="column">
+                    <div class="column" style="text-align: center">
                         <i class="fa fa-circle-thin" style="font-size:100px; width:148px; height: 148px;" class="w3-circle w3-hover-opacity"></i>
                         <h3>Our Motto</h3>
                         <p>Our School Vision is to Be A Center of Quality Education and empower Members to greater Heights</p>
