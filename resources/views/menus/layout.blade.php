@@ -164,10 +164,6 @@ div.desc {
 
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
-                    <ul class="dropdown-menu">
-                                <li><a href="">The Management</a></li>
-                                
-                    </ul>
                   </li>
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics</a>
