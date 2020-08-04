@@ -47,6 +47,10 @@ Route::get('/schoolfacilities' , function ()
 return view('menus.schoolfacilities');
 });
 
+Route::get('/admission' , function ()
+{
+return view('menus.admission');
+});
 
 Auth::routes();
 
