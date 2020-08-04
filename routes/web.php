@@ -18,9 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/aboutus', function () 
+Route::get('/about-us', function () 
 {
-    return view('menus.aboutus');
+    return view('menus.about-us');
 });
 
 Route::get('/staff', function ()
@@ -38,9 +38,9 @@ Route::get('/department', function ()
 return view('menus.department');
 });
 
-Route::get('/contact' , 'ContactController@getContact');
+Route::get('/contact-us' , 'ContactController@getContact');
 
-Route::post('/contact' , 'ContactController@saveContact');
+Route::post('/contact-us' , 'ContactController@saveContact');
 
 Route::get('/schoolfacilities' , function ()
 {

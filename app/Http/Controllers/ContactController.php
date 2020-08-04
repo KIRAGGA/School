@@ -8,7 +8,7 @@ class ContactController extends Controller
 {
     public function getContact()
     { 
-    return view('menus.contact'); 
+    return view('menus.contact-us'); 
     }
 
 
