@@ -165,13 +165,8 @@ div.desc {
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
                     <ul class="dropdown-menu">
-                                <li><a href="">The Management & B.O.G</a></li>
-                                <li><a href="">Senior Management</a></li>
-                                <li><a href="">Accounts Department</a></li>
-                                <li><a href="">Secretaries</a></li>
-                                <li><a href="">Stores Department</a></li>
-                                <li><a href="">Boarding Department</a></li>
-                                <li><a href="">Transport Department</a></li>
+                                <li><a href="">The Management</a></li>
+                                
                     </ul>
                   </li>
                   <li class="dropdown">
@@ -179,28 +174,23 @@ div.desc {
                       <ul class="dropdown-menu">
                         <li><a href="">Departments</a></li>
                           <ul class="dropdown-menu">
-                            <li><a href="">Languages</a></li>
+                            {{-- <li><a href="">Languages</a></li>
                             <li><a href="">Humanities</a></li>
                             <li><a href="">Science</a></li>
                             <li><a href="">Mathematics</a></li>
                             <li><a href="">Technical Department</a></li>
                             <li><a href="">Guidance & Counseling</a></li>
                             <li><a href="">Careers</a></li>
-                            <li><a href="">Library</a></li>
+                            <li><a href="">Library</a></li> --}}
                         </ul>
                       <li><a href="">Achievements</a></li>
                       <li><a href="">School Curriculum</a></li>
-                      <li><a href="">Events</a></li>
-                    </ul>
+                         </ul>
                   </li>
                         
                           
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admission</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="">Admission Form</a></li>
-                      <li><a href="">Term Dates</a></li>
-                    </ul>
                   </li>
 
                   <li class="dropdown">

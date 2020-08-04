@@ -6,10 +6,23 @@
   <h1 style="height: 100px; width: 244px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School Curriculum</h1>
 </header>
 
+<p>Taibah follows a diverse approach to curriculum with the Telangana
+  State Board of Secondary Education (SSC). The scheme of continuous and
+   comprehensive evaluation (CCE) helps in improving student’s performance by 
+   identifying his/her learning difficulties at regular time intervals. At Taibah 
+   suitable remedial measures are taken for enhancing students learning performance. 
+   The scheme of continuous and comprehensive evaluation has inbuilt flexibility for 
+ schools to plan their own academic schedules as per specified guidelines on CCE.</p>
 
+ <p>An orientation is given to students to familiarize them with emerging technologies 
+   and relevant issues. Computers, Internet, spoken English, deeniyath, moral education and Sunnah 
+   (teachings of Prophet (S.A.W.S) ) are integrated into the curriculum.
+   Community-based activities form part of school learning, to build qualities
+   of citizenship, compassion and empathy.
+   </p>
 <div>
 
-    <p>The Curriculum offered at St. George’s Girls’ Secondary school consists of 16 subjects listed below.</p>
+   
     <table>
         <tr>
           <th>Firs</th>

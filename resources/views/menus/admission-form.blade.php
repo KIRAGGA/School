@@ -6,6 +6,7 @@
     <h1 style="height: 100px; width: 244px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admission Form</h1>
   </header>
     
+  <p>Students can apply for admission in our school, by filling in the form below: </p>
 <div>
     <form method="post" action="">
         <div class="form-body">
