@@ -7,6 +7,7 @@
   </header>
 
     <div>
+        <h1 style="text-align: center">BEYONDO CURRICULUM</h1>
         <p style="padding: 35px">For the all-round development of the students, apart from studies, 
             we have co-curricular activities. Students are encouraged for different 
             activities by their teachers like debate competition, quiz competition, 
