@@ -154,7 +154,7 @@ div.desc {
                           <a href="#">Home</a>
                         </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
                     <ul class="dropdown-menu">
                                 <li><a href="">About the School</a></li>
                                 <li><a href="">The Staff</a></li>
@@ -163,7 +163,7 @@ div.desc {
                   </li>
 
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
                   </li>
                   <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics</a>
@@ -186,7 +186,7 @@ div.desc {
                         
                           
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Admission</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="{{ route('menus.admission-form')}}">Admission</a>
                   </li>
 
                   <li class="dropdown">
@@ -199,7 +199,7 @@ div.desc {
                   </li>
                                        
                           <li>
-                            <a href="welcome">Contact Us</a>
+                            <a href="{{ route('menus.contact-us')}}">Contact Us</a>
                           </li>
             </ul>
         </div>
