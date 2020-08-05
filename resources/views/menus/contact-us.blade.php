@@ -89,7 +89,7 @@
                 </div>
                 <div class="row">
                  <div class="update ml-auto mr-auto">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+                  &nbsp;&nbsp;&nbsp;<button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
                   </div>
                 </div>
               </form>

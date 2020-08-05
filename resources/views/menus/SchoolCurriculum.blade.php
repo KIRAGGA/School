@@ -26,7 +26,7 @@
    
     <table>
         <tr>
-          <th>Firs</th>
+          <th>First</th>
           <th>Last Name</th>
           <th>Points</th>
           <th>subject</th>
@@ -57,4 +57,6 @@
         </tr>
       </table>
 </div>  
+
+
 @endsection
