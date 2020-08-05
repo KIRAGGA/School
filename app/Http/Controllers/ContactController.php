@@ -18,7 +18,6 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'subject' => 'required',
-            'phone_number' => 'required',
             'message' => 'required'
         ]);
 
@@ -30,6 +29,18 @@ class ContactController extends Controller
         $contact->message = $request->message;
 
         $contact->save();
+
+        \Mail::send('contact_email',
+             array(
+                 'name' => $request->get('name'),
+                 'email' => $request->get('email'),
+                 'subject' => $request->get('subject'),
+                 'user_message' => $request->get('message'),
+             ), function($message) use ($request)
+               {
+                  $message->from($request->email);
+                  $message->to('preagkan@gmail.com');
+               });
         
         return back()->with('success', 'Thank you for contact us!');
 

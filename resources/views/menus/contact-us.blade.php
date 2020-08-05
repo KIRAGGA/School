@@ -39,7 +39,7 @@
                   </div>
               @endif
               
-             <form method="post" action="">
+              <form method="post" action="contact-us">
                 {{csrf_field()}}
                 <div class="row">
                   <div class="col-md-12">
