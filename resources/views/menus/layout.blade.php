@@ -151,22 +151,22 @@ div.desc {
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                         <li class="active">
-                          <a href="#">Home</a>
+                          <a href="/">Home</a>
                         </li>
                   <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">About US</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="">About US</a>
                     <ul class="dropdown-menu">
-                                <li><a href="">About the School</a></li>
-                                <li><a href="">The Staff</a></li>
-                                <li><a href="">School Facilities</a></li>
+                                <li><a href="/about-us">About the School</a></li>
+                                <li><a href="/staff">The Staff</a></li>
+                                <li><a href="/schoolfacilities">School Facilities</a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="/administration">Administration</a>
                   </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">Academics</a>
                       <ul class="dropdown-menu">
                         <li><a href="">Departments</a></li>
                           <ul class="dropdown-menu">
@@ -179,27 +179,27 @@ div.desc {
                             <li><a href="">Careers</a></li>
                             <li><a href="">Library</a></li> --}}
                         </ul>
-                      <li><a href="">Achievements</a></li>
-                      <li><a href="">School Curriculum</a></li>
+                      <li><a href="/achievements">Achievements</a></li>
+                      <li><a href="/schoolcurriculum">School Curriculum</a></li>
                          </ul>
                   </li>
                         
                           
-                  <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="{{ route('menus.admission-form')}}">Admission</a>
+                  <li>
+                  <a href="/admission-form">Admission</a>
                   </li>
 
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">Co-curricular</a>
                         <ul class="dropdown-menu">
                           <li><a href="">School Tours & Gallery</a></li>
-                            <li><a href="">Games & Sports</a></li>
+                            <li><a href="/games">Games & Sports</a></li>
                             <li><a href="">Clubs & Societies</a></li>
                         </ul>
                   </li>
                                        
                           <li>
-                            <a href="{{ route('menus.contact-us')}}">Contact Us</a>
+                            <a href="/contact-us">Contact Us</a>
                           </li>
             </ul>
         </div>
