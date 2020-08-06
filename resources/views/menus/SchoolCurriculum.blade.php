@@ -2,9 +2,9 @@
 
 @section('content')
 
-<header style=" background-color: #666; padding: 10px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 100px">
+<div class="topnav" style=" background-color: #665; padding: 55px ; text-align: left; font-size: 35px; grid-area: header; color: white; height: 130px">
   <h1 style="height: 100px; width: 244px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School Curriculum</h1>
-</header>
+</div>
 
 <h2 style="text-align: center">Curriculum</h2>
 <p style="padding: 30px">Taibah follows a diverse approach to curriculum with the Telangana
