@@ -64,6 +64,7 @@ section:after {
   clear: both;
 }/* this is the section for aboutus photo  */
 
+
 .dropdown a:hover{
   background-color: cornflowerblue;
 }
@@ -131,12 +132,14 @@ div.desc {
 }
 
 
+
+
 </style>
 </head>
 <body>
 
 
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -150,7 +153,7 @@ div.desc {
       </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
+                        <li class="">
                           <a href="/">Home</a>
                         </li>
                   <li class="dropdown">
