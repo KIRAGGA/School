@@ -131,8 +131,29 @@ div.desc {
   clear: both;
 }
 
+ .navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
 
-
+.navbar li a, .navbar .navbar-brand {
+    color: rgb(75, 69, 69) !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: rgb(245, 246, 248) !important;
+  }
+  .navbar-inverse .navbar-toggle {
+    border-color: rgb(155, 66, 66);
+    color: rgb(39, 35, 35) !important;
+  }
 
 </style>
 </head>
@@ -154,24 +175,24 @@ div.desc {
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                         <li class="">
-                          <a href="/">Home</a>
+                          <a href="/">HOME</a>
                         </li>
                   <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="">About US</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="">ABOUT US</a>
                     <ul class="dropdown-menu">
                                 <li><a href="/about-us">About the School</a></li>
-                                <li><a href="/staff">The Staff</a></li>
+                                <li><a href="/staff">STAFF</a></li>
                                 <li><a href="/schoolfacilities">School Facilities</a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="/administration">Administration</a>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="/administration">ADMINISTRATION</a>
                   </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="">Academics</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">ACADEMECIS</a>
                       <ul class="dropdown-menu">
-                        <li><a href="">Departments</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
                           <ul class="dropdown-menu">
                             {{-- <li><a href="">Languages</a></li>
                             <li><a href="">Humanities</a></li>
@@ -182,14 +203,14 @@ div.desc {
                             <li><a href="">Careers</a></li>
                             <li><a href="">Library</a></li> --}}
                         </ul>
-                      <li><a href="/achievements">Achievements</a></li>
-                      <li><a href="/schoolcurriculum">School Curriculum</a></li>
+                      <li><a href="/achievements">ACHIEVEMENTS</a></li>
+                      <li><a href="/schoolcurriculum">SCHOOL CURRICULUM</a></li>
                          </ul>
                   </li>
                         
                           
                   <li>
-                  <a href="/admission-form">Admission</a>
+                  <a href="/admission-form">ADMISSION</a>
                   </li>
 
                   <li class="dropdown">
