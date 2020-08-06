@@ -57,6 +57,11 @@ Route::get('/games' , function ()
 return view('menus.games');
 });
 
+Route::get('/achievements' , function ()
+{
+return view('menus.achievements');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

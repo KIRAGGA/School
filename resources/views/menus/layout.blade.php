@@ -148,11 +148,11 @@ div.desc {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #ffffff !important;
-    background-color: rgb(245, 246, 248) !important;
+    background-color: #bbb !important;
   }
   .navbar-inverse .navbar-toggle {
     border-color: rgb(155, 66, 66);
-    color: rgb(39, 35, 35) !important;
+    color: rgb(255, 255, 255) !important;
   }
 
 </style>
@@ -180,9 +180,9 @@ div.desc {
                   <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="">ABOUT US</a>
                     <ul class="dropdown-menu">
-                                <li><a href="/about-us">About the School</a></li>
+                                <li><a href="/about-us">ABOUT THE SCHOOL</a></li>
                                 <li><a href="/staff">STAFF</a></li>
-                                <li><a href="/schoolfacilities">School Facilities</a></li>
+                                <li><a href="/schoolfacilities">SCHOOL FACILITIES</a></li>
                     </ul>
                   </li>
 
@@ -214,16 +214,16 @@ div.desc {
                   </li>
 
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="">Co-curricular</a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">CO- CURRICULAR</a>
                         <ul class="dropdown-menu">
                           <li><a href="">School Tours & Gallery</a></li>
-                            <li><a href="/games">Games & Sports</a></li>
-                            <li><a href="">Clubs & Societies</a></li>
+                            <li><a href="/games">GAMES & SPORTS</a></li>
+                            <li><a href="">CLUBS & SOCIETIES</a></li>
                         </ul>
                   </li>
                                        
                           <li>
-                            <a href="/contact-us">Contact Us</a>
+                            <a href="/contact-us">CONTACT US</a>
                           </li>
             </ul>
         </div>
